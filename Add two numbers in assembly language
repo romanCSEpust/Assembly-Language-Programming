@@ -2,8 +2,8 @@
 .stack 100h
 .data
 a db 'Input first digit $'
-b db 'Input second digit $'
-c db 'Result $'
+b db 10,13,'Input second digit $'
+c db 10,13,'Result $'
 .code
 
 main proc 
